@@ -5,8 +5,8 @@ import java.util.Random;
 public class AutoArray {
 
     public static void main(String[] args) {
-        int filas = 50;
-        int columnas = 50;
+        int filas = 10;
+        int columnas = 10;
         
         long startTime = System.currentTimeMillis();
         
@@ -30,6 +30,6 @@ public class AutoArray {
         
         long printDuration = endTime - startTime;
         
-        System.out.println("Tiempo para imprimir la Matriz: "+ printDuration+"ms");
+        System.out.println("Tiempo para imprimir la Matriz: "+ printDuration+" ms");
     }
 }
